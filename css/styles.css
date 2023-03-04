@@ -1,0 +1,79 @@
+
+
+#title{
+    background-color: #ff4c68;
+}
+
+#features{
+    margin: 5%;
+    text-align: center;
+    
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* .header{
+    margin-top: 7%;
+} */
+
+.feature-icon{
+    margin: 2.5rem auto;
+    color: #ef8172;
+}
+
+.header-button{
+    margin: 5% 3% 5% 0;
+}
+
+.header-text{
+    color: white;
+    line-height: 1.5;
+}
+
+.header-img{
+    width: 60%;
+    transform: rotate(45deg);
+}
+
+h1{
+    font-family: 'Montserrat';
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.feature-text{
+    color: #8f8f8f;
+    font-family: 'Montserrat';
+    margin: auto;
+    width: 60%;
+}
+
+
+/* Navigator Brand */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0rem 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
