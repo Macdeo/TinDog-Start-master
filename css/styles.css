@@ -10,6 +10,19 @@
     
 }
 
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
 .container-fluid{
     padding: 3% 15%;
 }
@@ -23,6 +36,17 @@
     color: #ef8172;
 }
 
+.feature-icon:hover{
+    color: #ff4c68
+}
+
+.feature-text{
+    color: #8f8f8f;
+    font-family: 'Montserrat';
+    margin: auto;
+    width: 60%;
+}
+
 .header-button{
     margin: 5% 3% 5% 0;
 }
@@ -34,8 +58,20 @@
 
 .header-img{
     width: 60%;
-    transform: rotate(45deg);
+    transform: rotate(25deg);
 }
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 4%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 5px;
+}
+
 
 h1{
     font-family: 'Montserrat';
@@ -43,19 +79,18 @@ h1{
     line-height: 1.5;
     font-weight: 900;
 }
+h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
 h3{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 1.5rem;
+    color: black;
 }
-
-.feature-text{
-    color: #8f8f8f;
-    font-family: 'Montserrat';
-    margin: auto;
-    width: 60%;
-}
-
 
 /* Navigator Brand */
 
