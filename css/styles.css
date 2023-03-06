@@ -1,29 +1,43 @@
-
-
-#title{
+#title {
     background-color: #ff4c68;
 }
 
-#features{
+#features {
     margin: 5%;
     text-align: center;
-    
+
 }
 
-#testimonials{
-    padding: 7% 15%;
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+#testimonials {
     text-align: center;
     background-color: #ef8172;
     color: white;
 }
 
-#press{
+#press {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 }
 
-.container-fluid{
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-button:hover {
+    background-color: #2F58CD;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.container-fluid {
     padding: 3% 15%;
 }
 
@@ -31,84 +45,90 @@
     margin-top: 7%;
 } */
 
-.feature-icon{
+.feature-icon {
     margin: 2.5rem auto;
     color: #ef8172;
 }
 
-.feature-icon:hover{
+.feature-icon:hover {
     color: #ff4c68
 }
 
-.feature-text{
+.feature-text {
     color: #8f8f8f;
     font-family: 'Montserrat';
     margin: auto;
     width: 60%;
 }
 
-.header-button{
+.header-button {
     margin: 5% 3% 5% 0;
 }
 
-.header-text{
+.header-text {
     color: white;
     line-height: 1.5;
 }
 
-.header-img{
+.header-img {
     width: 60%;
     transform: rotate(25deg);
 }
 
-.testimonial-image{
+.testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin: 4%;
 }
 
-.press-logo{
+.press-logo {
     width: 15%;
     margin: 20px 20px 5px;
 }
 
 
-h1{
+h1 {
     font-family: 'Montserrat';
     size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
 }
-h2{
+
+h2 {
     font-family: 'Montserrat';
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 700;
 }
-h3{
+
+h3 {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 1.5rem;
     color: black;
 }
 
+p {
+    color: #8f8f8f;
+}
+
 /* Navigator Brand */
 
-.navbar{
+.navbar {
     padding: 0 0 4.5rem;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Ubuntu';
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-.nav-item{
+.nav-item {
     padding: 0rem 18px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat';
 }
