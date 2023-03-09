@@ -1,10 +1,17 @@
+#cta {
+    text-align: center;
+}
+
 #title {
     background-color: #ff4c68;
 }
 
 #features {
-    margin: 5%;
+    padding: 7% 15%;
     text-align: center;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
 
 }
 
@@ -71,8 +78,9 @@
 }
 
 .header-img {
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 .testimonial-image {
