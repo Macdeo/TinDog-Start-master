@@ -1,5 +1,7 @@
 #cta {
     text-align: center;
+    background-color: #ff4c68;
+    padding: 12%;
 }
 
 #title {
@@ -15,6 +17,11 @@
 
 }
 
+#footer{
+    text-align: center;
+    margin-top: 5%;
+}
+
 #pricing {
     text-align: center;
     padding: 100px;
@@ -24,6 +31,7 @@
     text-align: center;
     background-color: #ef8172;
     color: white;
+    padding-top: 30%;
 }
 
 #press {
@@ -45,8 +53,21 @@
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
+
+.cta-button{
+    margin: 5% 2%;
+}
+
+.cta-text{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 0px 7%;
+
+}
+
 
 /* .header{
     margin-top: 7%;
@@ -68,6 +89,15 @@
     width: 60%;
 }
 
+.footer-icon{
+    padding: 1%;
+    color: #ff4c68;
+}
+
+.footer-icons{
+    margin-bottom: 2rem;
+}
+
 .header-button {
     margin: 5% 3% 5% 0;
 }
@@ -81,6 +111,20 @@
     width: 20%;
     transform: rotate(25deg);
     position: absolute;
+}
+
+@media (max-width: 993px) {
+    .header-img {
+        position: static;
+        transform: rotate(0);
+
+        width: 100%;
+    }
+
+    .header {
+        position: static;
+        text-align: center;
+    }
 }
 
 .testimonial-image {
