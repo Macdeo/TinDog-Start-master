@@ -9,7 +9,7 @@
 }
 
 #features {
-    padding: 7% 15%;
+    padding: 7% 25%;
     text-align: center;
     background-color: #fff;
     position: absolute;
@@ -19,7 +19,7 @@
 
 #footer{
     text-align: center;
-    margin-top: 5%;
+    padding: 7% 15%;
 }
 
 #pricing {
@@ -125,6 +125,17 @@
         position: static;
         text-align: center;
     }
+
+    #testimonials {
+        /* text-align: center;
+        background-color: #ef8172;
+        color: white; */
+        padding-top: 100%;
+    }
+}
+
+.slide{
+    
 }
 
 .testimonial-image {
