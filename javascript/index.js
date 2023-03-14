@@ -40,3 +40,12 @@ function calAge(age) {
     var monthsLeft = totalmonths - (age * 12);
     console.log('You have ' + daysLeft + ' days, ' + weeksLeft + ' weeks, ' + monthsLeft + ' months left');
 }    
+
+
+function bmi(weight, height){
+    var theheight = height*height;
+    bmiCal = Math.round(weight/theheight);
+    console.log(bmiCal);
+}
+
+bmi(65, 1.8);
