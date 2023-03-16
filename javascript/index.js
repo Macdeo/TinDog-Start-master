@@ -42,25 +42,75 @@ function calAge(age) {
 }    
 
 
-function bmi(weight, height){
-    var theheight = height*height;
-    bmiCal = Math.round(weight/theheight);
-    console.log(bmiCal);
-}
+// function bmi(weight, height){
+//     var theheight = height*height;
+//     bmiCal = Math.round(weight/theheight);
+//     console.log(bmiCal);
+// }
 
-bmi(65, 1.8);
+// bmi(65, 1.8);
 
-var output = [];
-var count = 1;
+// var output = [];
+// var count = 1;
 
-function fizzBuzz(){
-    output.push(count);
-    count++;
-    console.log(output);
+// function fizzBuzz(){
+//     output.push(count);
+//     count++;
+//     console.log(output);
 
-    return output;
-}
+//     return output;
+// }
 
 
 
-fizzBuzz();
+// fizzBuzz();
+
+// var noOfBottles = 99;
+
+// function lyrics(){
+//     while (noOfBottles > 0){
+//     console.log(noOfBottles + ' bottles of beer on the wall, ' + noOfBottles + ' bottles of beer.');
+//     noOfBottles--;
+//     if (noOfBottles === 0){
+//           console.log('Take one down and pass it around, no more bottles of beer on the wall.');
+//     } else {
+//             console.log('Take one down and pass it around, ' + noOfBottles + ' bottles of beer on the wall.');
+//      }
+        
+// }
+
+// console.log('No more bottles of beer on the wall, no more bottles of beer.');
+// console.log('Go to the store and buy some more, 99 bottles of beer on the wall.');
+//     return noOfBottles;
+// }
+
+// lyrics();
+
+
+function fibonacciGenerator (n) {
+    //Do NOT change any of the code above 👆
+        
+        //Write your code here:
+        var noOfItem = [];
+
+        if ( n <= 1){
+            noOfItem = [0]; 
+        } else if ( n == 2){
+            noOfItem = [0, 1];
+        } else{
+            noOfItem = [0, 1];
+            for(var i = 2; i < n; i++ ){
+                var additem = noOfItem[noOfItem.length - 2] + noOfItem[noOfItem.length - 1];
+                noOfItem.push(additem);
+            }
+        }
+        
+        return noOfItem;
+        
+        
+        //Return an array of fibonacci numbers starting from 0.
+        
+    //Do NOT change any of the code below 👇
+    }
+    
+console.log(fibonacciGenerator(10));
